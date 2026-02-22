@@ -64,6 +64,8 @@
 
 #pagebreak()
 
+#set text(font: ("Avenir Next", "Futura", "Helvetica Neue", "Orbitron", "Fira Sans"), size: 12pt)
+
 = Who we are 
 #ebullet([🏙️])[We are *Madrileaños*.]
 #ebullet([💖])[Started as a space for friends to learn together.]
@@ -108,9 +110,10 @@
 #v(0.25cm)
 #align(center)[
   Worldwide community / Comunidad mundial
-  #image("assets/leanprover-zulip.png", width: 50%, fit: "contain")
+  #image("assets/leanprover-zulip.png", width: 40%, fit: "contain")
   #set text(size: 12pt)
     https://leanprover.zulipchat.com/ 
+
     *\#Geographic locality -> Madrid, Spain*
 ]
 
