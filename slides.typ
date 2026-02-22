@@ -1,5 +1,26 @@
-#set page(width: 16cm, height: 9cm, margin: 1cm)
-#set text(font: "Fira Sans", size: 14pt)
+#let slide_progress() = context {
+  let current = counter(page).get().first()
+  let total = counter(page).final().first()
+  let ratio = if total > 0 { calc.min(1, current / total) } else { 0 }
+
+  align(center)[
+    #box(width: 14cm, height: 0.12cm)[
+      #rect(width: 14cm, height: 0.12cm, fill: luma(230), radius: 0cm)
+      #place(top + left)[
+        #rect(width: (14cm * ratio), height: 0.12cm, fill: luma(140), radius: 0cm)
+      ]
+    ]
+  ]
+}
+
+#set page(width: 16cm, height: 9cm, margin: 1cm, footer: slide_progress())
+#set text(font: "Fira Sans", size: 12pt)
+#show heading: it => block(below: 0.65em)[#it]
+
+#let ebullet(icon, body) = [
+  #set list(marker: [#icon])
+  - #body
+]
 
 #place(top + left)[
   #box(width: 100%, height: 100%)[
@@ -44,26 +65,32 @@
 #pagebreak()
 
 = Who we are 
-- We are *Madrileaños*. 🏙️
-- Started as a space for friends to learn together. 💖
-- Bilingual meetup. 🌍
+#ebullet([🏙️])[We are *Madrileaños*.]
+#ebullet([💖])[Started as a space for friends to learn together.]
+#ebullet([🌍])[Bilingual meetup.]
 
 = Quiénes somos
-- Somos *Madrileaños*. 🏙️
-- Empezó como espacio de amigos para aprender juntos. 💖
-- Meetup bilingüe. 🌍
+#ebullet([🏙️])[Somos *madrileaños*.]
+#ebullet([💖])[Empezó como espacio de amigos para aprender juntos.]
+#ebullet([🌍])[Meetup bilingüe.]
 
 #pagebreak()
 
+#set text(size: 12pt)
+#set par(leading: 1em)
 = Who we are not
-- People who have all the answers! 🚫
-  - We will reach the answers *together*. 🧠
-  - We will make *mistakes* and that's ok. 🌱
+#ebullet([🚫])[People who have all the answers!
+  #ebullet([🧠])[We will reach the answers *together*.]
+  #ebullet([🌱])[We will make *mistakes* and that's ok.]
+]
 
 = Quiénes no somos
-- Personas que tienen todas las respuestas. 🚫
-  - Lleguemos a las respuestas *juntos*. 🧠
-  - Cometeremos *errores* y no pasa nada. 🌱
+#ebullet([🚫])[Personas que tienen todas las respuestas.
+  #ebullet([🧠])[Lleguemos a las respuestas *juntos*.]
+  #ebullet([🌱])[Cometeremos *errores* y no pasa nada.]
+]
+#set par(leading: 1em)
+#set text(size: 12pt)
 
 #pagebreak()
 
@@ -75,6 +102,8 @@
   https://adam.math.hhu.de/
 ]
 
+#pagebreak()
+
 = How to get started? / ¿Cómo empezar (2/3)? 
 #v(0.25cm)
 #align(center)[
@@ -84,6 +113,8 @@
     https://leanprover.zulipchat.com/ 
     *\#Geographic locality -> Madrid, Spain*
 ]
+
+#pagebreak()
 
 = How to get started? / ¿Cómo empezar (3/3)? 
 #v(0.25cm)
@@ -95,21 +126,25 @@
 ]
 
 #pagebreak()
+#set par(leading: 1em)
 = What's the point of this then? 
-Two *types* of knowledge:
-  - The information (all online). 🌐
-  - What to do with the info -- *socially transmitted*. 🗣️
+#ebullet([2️⃣])[Two *types* of knowledge:
+  #ebullet([🌐])[The information (all online).]
+  #ebullet([🫂])[What to do with the info -- *socially transmitted*.]
+]
 
 = ¿Pues, cuál es el objetivo?
-Dos *tipos* de conocimiento:
-- La información (todo en la web). 🌐
-- Qué hacer con la información -- *transmitido socialmente*. 🗣️
-#set text(size: 14pt)
+#ebullet([2️⃣])[Dos *tipos* de conocimiento:
+  #ebullet([🌐])[La información (todo en la web).]
+  #ebullet([🫂])[Qué hacer con la información -- *transmitido socialmente*.]
+]
+#set par(leading: 1em)
+#set text(size: 12pt)
 
 #pagebreak()
 
 = Let's collaborate!
-- Introduce yourself and what you'd like to work on! 🎤
+#ebullet([🎤])[Introduce yourself and what you'd like to work on!]
 
 = ¡Colaboremos!
-¡Preséntate y cuéntanos en qué te gustaría trabajar! 🎤
+#ebullet([🎤])[¡Preséntate y cuéntanos en qué te gustaría trabajar!]
