@@ -38,7 +38,7 @@
   #image("assets/full_logo.svg", width: 58%, fit: "contain")
   #text(size: 40pt, weight: "bold")[MadLean]
   #linebreak()
-  #text(size: 16pt)[*Lean into the Madness*]
+  #text(size: 16pt)[Lean into the Madness]
 ]
 
 #pagebreak()
