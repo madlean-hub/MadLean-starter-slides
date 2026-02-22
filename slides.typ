@@ -35,7 +35,7 @@
 
 #align(center + horizon)[
   #v(0.2cm)
-  #image("assets/full_logo.svg", width: 58%, fit: "contain")
+  #align(center)[#image("assets/full_logo.svg", width: 58%, fit: "contain")]
   #text(size: 40pt, weight: "bold")[MadLean]
   #linebreak()
   #text(size: 16pt)[Lean into the Madness]
@@ -45,12 +45,12 @@
 
 = Who we are 
 - We are *Madrileaños*. 🏙️
-- Started as a space for friends to learn together. 🤝
+- Started as a space for friends to learn together. 💖
 - Bilingual meetup. 🌍
 
 = Quiénes somos
 - Somos *Madrileaños*. 🏙️
-- Empezó como espacio de amigos para aprender juntos. 🤝
+- Empezó como espacio de amigos para aprender juntos. 💖
 - Meetup bilingüe. 🌍
 
 #pagebreak()
