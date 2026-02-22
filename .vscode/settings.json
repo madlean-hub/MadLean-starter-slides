@@ -1,0 +1,9 @@
+{
+  "tinymist.fontPaths": [
+    "/Users/hanglu/Library/Fonts"
+  ],
+  "tinymist.systemFonts": true,
+  "tinymist.typstExtraArgs": [
+    "--font-path=/Users/hanglu/Library/Fonts"
+  ]
+}
