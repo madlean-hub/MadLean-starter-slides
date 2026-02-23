@@ -131,16 +131,15 @@
 #pagebreak()
 #set par(leading: 1em)
 = What's the point of this then? 
-#ebullet([2️⃣])[Two *types* of knowledge:
-  #ebullet([🌐])[The information (all online).]
-  #ebullet([🫂])[What to do with the info -- *socially transmitted*.]
-]
+#ebullet([🇪🇸])[Build a community based in Madrid.]
+#ebullet([🤝])[Learn together and collaborate.]
+#ebullet([💅])[Not gatekeeping.]
+
 
 = ¿Pues, cuál es el objetivo?
-#ebullet([2️⃣])[Dos *tipos* de conocimiento:
-  #ebullet([🌐])[La información (todo en la web).]
-  #ebullet([🫂])[Qué hacer con la información -- *transmitido socialmente*.]
-]
+#ebullet([🇪🇸])[Construir una comunidad en Madrid.]
+#ebullet([🤝])[Aprender juntos y colaborar.]
+#ebullet([💅])[Sin gatekeeping.]
 #set par(leading: 1em)
 #set text(size: 12pt)
 
