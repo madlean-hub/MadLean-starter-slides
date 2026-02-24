@@ -184,7 +184,7 @@
 
 #pagebreak()
 
-= Let's collaborate!
+= Let's get to know each other!
 #ebullet([🎤])[Introduce yourself and what you'd like to work on!]
 
 Meeting is 90 minutes, divided into 30-30-30: 
@@ -194,7 +194,7 @@ Meeting is 90 minutes, divided into 30-30-30:
 
 #pagebreak()
 
-= ¡Colaboremos!
+= ¡Conozcámonos!
 #ebullet([🎤])[¡Preséntate y cuéntanos en qué te gustaría trabajar!]
 
 La reunión dura 90 minutos, divididos en 30-30-30:
