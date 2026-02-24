@@ -14,7 +14,7 @@
 }
 
 #set page(width: 16cm, height: 9cm, margin: 1cm, footer: slide_progress())
-#set text(font: "Fira Sans", size: 12pt)
+#set text(font: "Fira Sans", size: 14pt)
 #show heading: it => block(below: 0.65em)[#it]
 
 #let ebullet(icon, body) = [
@@ -64,12 +64,14 @@
 
 #pagebreak()
 
-#set text(font: ("Avenir Next", "Futura", "Helvetica Neue", "Orbitron", "Fira Sans"), size: 12pt)
+#set text(font: ("Avenir Next", "Futura", "Helvetica Neue", "Orbitron", "Fira Sans"), size: 14pt)
 
 = Who we are 
 #ebullet([🏙️])[We are *Madrileaños*.]
 #ebullet([💖])[Started as a space for friends to learn together.]
 #ebullet([🌍])[Bilingual meetup.]
+
+#pagebreak()
 
 = Quiénes somos
 #ebullet([🏙️])[Somos *madrileaños*.]
@@ -78,7 +80,7 @@
 
 #pagebreak()
 
-#set text(size: 12pt)
+#set text(size: 14pt)
 #set par(leading: 1em)
 = Who we are not
 #ebullet([🚫])[People who have all the answers!
@@ -86,30 +88,42 @@
   #ebullet([🌱])[We will make *mistakes* and that's ok.]
 ]
 
+#pagebreak()
+
 = Quiénes no somos
 #ebullet([🚫])[Personas que tienen todas las respuestas.
   #ebullet([🧠])[Lleguemos a las respuestas *juntos*.]
   #ebullet([🌱])[Cometeremos *errores* y no pasa nada.]
 ]
 #set par(leading: 1em)
-#set text(size: 12pt)
+#set text(size: 14pt)
 
 #pagebreak()
 
-= How to get started? / ¿Cómo empezar?  (1/3)
+= How to get started? (1/3)
 #v(0.25cm)
 #align(center)[
-  To get an idea / Para hacerte una idea
+  To get an idea
   #image("assets/lean-game-server.png", width: 50%, fit: "contain")
   https://adam.math.hhu.de/
 ]
 
 #pagebreak()
 
-= How to get started? / ¿Cómo empezar (2/3)? 
+= ¿Cómo empezar? (1/3)
 #v(0.25cm)
 #align(center)[
-  Worldwide community / Comunidad mundial
+  Para hacerte una idea
+  #image("assets/lean-game-server.png", width: 50%, fit: "contain")
+  https://adam.math.hhu.de/
+]
+
+#pagebreak()
+
+= How to get started? (2/3)
+#v(0.25cm)
+#align(center)[
+  Worldwide community
   #image("assets/leanprover-zulip.png", width: 40%, fit: "contain")
   #set text(size: 12pt)
     https://leanprover.zulipchat.com/ 
@@ -119,10 +133,34 @@
 
 #pagebreak()
 
-= How to get started? / ¿Cómo empezar (3/3)? 
+= ¿Cómo empezar? (2/3)
 #v(0.25cm)
 #align(center)[
-  Our website / Nuestra web
+  Comunidad mundial
+  #image("assets/leanprover-zulip.png", width: 40%, fit: "contain")
+  #set text(size: 12pt)
+    https://leanprover.zulipchat.com/ 
+
+    *\#Geographic locality -> Madrid, Spain*
+]
+
+#pagebreak()
+
+= How to get started? (3/3)
+#v(0.25cm)
+#align(center)[
+  Our website
+  #image("assets/madlean-hub.png", width: 50%, fit: "contain")
+  #set text(size: 12pt)
+  https://madlean-hub.web.app/links
+]
+
+#pagebreak()
+
+= ¿Cómo empezar? (3/3)
+#v(0.25cm)
+#align(center)[
+  Nuestra web
   #image("assets/madlean-hub.png", width: 50%, fit: "contain")
   #set text(size: 12pt)
   https://madlean-hub.web.app/links
@@ -135,18 +173,21 @@
 #ebullet([🤝])[Learn together and collaborate.]
 #ebullet([💅])[Not gatekeeping.]
 
+#pagebreak()
 
 = ¿Pues, cuál es el objetivo?
 #ebullet([🇪🇸])[Construir una comunidad en Madrid.]
 #ebullet([🤝])[Aprender juntos y colaborar.]
 #ebullet([💅])[Sin gatekeeping.]
 #set par(leading: 1em)
-#set text(size: 12pt)
+#set text(size: 14pt)
 
 #pagebreak()
 
 = Let's collaborate!
 #ebullet([🎤])[Introduce yourself and what you'd like to work on!]
+
+#pagebreak()
 
 = ¡Colaboremos!
 #ebullet([🎤])[¡Preséntate y cuéntanos en qué te gustaría trabajar!]
