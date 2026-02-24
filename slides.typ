@@ -65,11 +65,19 @@
 #pagebreak()
 
 #set text(font: ("Avenir Next", "Futura", "Helvetica Neue", "Orbitron", "Fira Sans"), size: 14pt)
+#set text(size: 12pt)
+#set par(leading: 0.9em)
 
 = Who we are 
 #ebullet([🏙️])[We are *Madrileaños*.]
 #ebullet([💖])[Started as a space for friends to learn together.]
 #ebullet([🌍])[Bilingual meetup.]
+
+#align(center)[
+  #image("assets/friends.jpg", width: 100%, height: 3.1cm, fit: "contain")
+]
+
+
 
 #pagebreak()
 
@@ -78,14 +86,20 @@
 #ebullet([💖])[Empezó como espacio de amigos para aprender juntos.]
 #ebullet([🌍])[Meetup bilingüe.]
 
+#align(center)[
+  #image("assets/friends_es.jpg", width: 100%, height: 3.1cm, fit: "contain")
+]
+
 #pagebreak()
 
-#set text(size: 14pt)
-#set par(leading: 1em)
 = Who we are not
 #ebullet([🚫])[People who have all the answers!
   #ebullet([🧠])[We will reach the answers *together*.]
   #ebullet([🌱])[We will make *mistakes* and that's ok.]
+]
+
+#align(center)[
+  #image("assets/mistakes.jpg", width: 100%, height: 3.1cm, fit: "contain")
 ]
 
 #pagebreak()
@@ -95,8 +109,12 @@
   #ebullet([🧠])[Lleguemos a las respuestas *juntos*.]
   #ebullet([🌱])[Cometeremos *errores* y no pasa nada.]
 ]
-#set par(leading: 1em)
+#align(center)[
+  #image("assets/mistakes_es.jpg", width: 100%, height: 3.1cm, fit: "contain")
+]
+
 #set text(size: 14pt)
+#set par(leading: 1em)
 
 #pagebreak()
 
@@ -167,11 +185,16 @@
 ]
 
 #pagebreak()
+#set text(size: 12pt)
 #set par(leading: 1em)
 = What's the point of this then? 
 #ebullet([🇪🇸])[Build a community based in Madrid.]
 #ebullet([🤝])[Learn together and collaborate.]
 #ebullet([💅])[Not gatekeeping.]
+
+#align(center)[
+  #image("assets/gatekeeping.jpg", width: 100%, height: 3.1cm, fit: "contain")
+]
 
 #pagebreak()
 
@@ -180,6 +203,11 @@
 #ebullet([🤝])[Aprender juntos y colaborar.]
 #ebullet([💅])[Sin gatekeeping.]
 #set par(leading: 1em)
+
+#align(center)[
+  #image("assets/gatekeeping_es.jpg", width: 100%, height: 3.1cm, fit: "contain")
+]
+
 #set text(size: 14pt)
 
 #pagebreak()
