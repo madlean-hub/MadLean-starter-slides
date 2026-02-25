@@ -144,9 +144,9 @@
   Worldwide community
   #image("assets/leanprover-zulip.png", width: 40%, fit: "contain")
   #set text(size: 12pt)
-    https://leanprover.zulipchat.com/ 
+    *https://leanprover.zulipchat.com -> \#new members* 
 
-    *\#Geographic locality -> Madrid, Spain*
+    \#Geographic locality -> Madrid, Spain
 ]
 
 #pagebreak()
@@ -157,9 +157,9 @@
   Comunidad mundial
   #image("assets/leanprover-zulip.png", width: 40%, fit: "contain")
   #set text(size: 12pt)
-    https://leanprover.zulipchat.com/ 
+    *https://leanprover.zulipchat.com -> \#new members* 
 
-    *\#Geographic locality -> Madrid, Spain*
+    \#Geographic locality -> Madrid, Spain
 ]
 
 #pagebreak()
