@@ -187,7 +187,7 @@
 #pagebreak()
 #set text(size: 12pt)
 #set par(leading: 1em)
-= What's the point of this then? 
+= What's the point of in-person then? 
 #ebullet([🇪🇸])[Build a community based in Madrid.]
 #ebullet([🤝])[Learn together and collaborate.]
 #ebullet([💅])[Not gatekeeping.]
@@ -198,7 +198,7 @@
 
 #pagebreak()
 
-= ¿Pues, cuál es el objetivo?
+= ¿Entonces, para qué en persona?
 #ebullet([🇪🇸])[Construir una comunidad en Madrid.]
 #ebullet([🤝])[Aprender juntos y colaborar.]
 #ebullet([💅])[Sin gatekeeping.]
