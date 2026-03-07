@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Typst slides",
+			"type": "shell",
+			"command": "typst",
+			"args": [
+				"compile",
+				"slides.typ",
+				"slides.pdf"
+			],
+			"isBackground": false,
+			"group": "build"
+		}
+	]
+}

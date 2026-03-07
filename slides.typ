@@ -215,17 +215,15 @@
 = Let's get to know each other!
 #ebullet([🎤])[Introduce yourself and what you'd like to work on!]
 
-Meeting is 90 minutes, divided into 30-30-30: 
-  - First 30: introductions and subgrouping.
-  - Second 30: free time for presentations/group work.
-  - Third 30: more free time for presentations/group work.
+Meeting is 90 minutes, divided into 30-60: 
+  - 30 mins of introductions and group work.
+  - 60 mins of presentation. 
 
 #pagebreak()
 
 = ¡Conozcámonos!
 #ebullet([🎤])[¡Preséntate y cuéntanos en qué te gustaría trabajar!]
 
-La reunión dura 90 minutos, divididos en 30-30-30:
-  - Primeros 30: conocernos y formar subgrupos.
-  - Segundos 30: presentaciones o trabajo grupal.
-  - Últimos 30: más presentaciones o trabajo grupal.
+La reunión dura 90 minutos, divididos en 30-60:
+  - 30 minutos de presentaciones y trabajo en grupo.
+  - 60 minutos de presentación.
