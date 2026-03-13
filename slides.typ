@@ -216,8 +216,9 @@
 #ebullet([🎤])[Introduce yourself and what you'd like to work on!]
 
 Meeting is 90 minutes, divided into 30-60: 
-  - 30 mins of introductions and group work.
-  - 60 mins of presentation. 
+  - 15 mins introductions
+  - 45 mins presentations
+  - 30mins+ of group work
 
 #pagebreak()
 
@@ -225,5 +226,6 @@ Meeting is 90 minutes, divided into 30-60:
 #ebullet([🎤])[¡Preséntate y cuéntanos en qué te gustaría trabajar!]
 
 La reunión dura 90 minutos, divididos en 30-60:
-  - 30 minutos de presentaciones y trabajo en grupo.
-  - 60 minutos de presentación.
+  - 15 min de presentaciones
+  - 45 min de ponencias
+  - 30 min+ de trabajo en grupo
