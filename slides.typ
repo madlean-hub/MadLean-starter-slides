@@ -215,17 +215,16 @@
 = Let's get to know each other!
 #ebullet([🎤])[Introduce yourself and what you'd like to work on!]
 
-Meeting is 90 minutes, divided into 30-60: 
-  - 15 mins introductions
-  - 45 mins presentations
-  - 30mins+ of group work
+#align(center)[  
+  #image("assets/socializing.jpg", width: 15%, fit: "contain")
+]
 
 #pagebreak()
 
 = ¡Conozcámonos!
 #ebullet([🎤])[¡Preséntate y cuéntanos en qué te gustaría trabajar!]
 
-La reunión dura 90 minutos, divididos en 30-60:
-  - 15 min de presentaciones
-  - 45 min de ponencias
-  - 30 min+ de trabajo en grupo
+#align(center)[  
+  #image("assets/socializing-es.jpg", width: 15%, fit: "contain")
+]
+
